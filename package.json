@@ -1,0 +1,27 @@
+{
+  "name": "cheng-fast-react",
+  "version": "1.0.0",
+  "description": "高效率的react构建工具",
+  "bin": {
+    "chengxufeng-react": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chengxufeng",
+  "keywords": ["react","umi","chengxufeng"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chengRoss/react-cli.git"
+  },
+  "engines": {
+    "node": ">= 14.17.6"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.1.0",
+    "inquirer": "^8.2.1",
+    "shelljs": "^0.8.5"
+  }
+}
